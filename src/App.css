@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 99vh;
+  color: rgb(236, 143, 3);
+  min-width: 320px;
+  border: 1px red solid;
+  gap: 25px;
+}
+
+h1 {
+  font-size: 50px;
+}
+.App div {
+  width: 60%;
+  justify-content: center;
+  min-width: 320px;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  font-size: 25px;
+  color: chocolate;
+}
+input[type="range"] {
+  cursor: pointer;
+}
+input[type="text"] {
+  width: 60%;
+  min-width: 300px;
+  font-size: 19px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  background-color: rgb(199, 216, 123);
+  padding: 5px;
+  border: 1px rgb(255, 166, 0) solid;
+  outline: none;
+}
+button {
+  background-color: rgb(92, 92, 92);
+  color: azure;
+  border: none;
+  padding: 10px;
+  width: 20%;
+  font-size: 18px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: green;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
