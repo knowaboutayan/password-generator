@@ -2,13 +2,6 @@
 
 A React application that provides weather forecasts for different locations.
 
-## Installation
-
-1. Clone this repository.
-2. Navigate to the project directory.
-3. Install dependencies: `npm install`.
-4. Start the development server: `npm start`.
-
 ## Usage
 
 - Visit the homepage to see the current weather.
